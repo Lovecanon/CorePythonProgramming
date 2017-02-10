@@ -49,7 +49,8 @@ def main():
     print('*** Download "%s" success.' % (DOWNLOAD_FILE,))
 
     # 5.上传文件到FTP服务器中
-    # 注：传入的第二个参数是文件对象；必须用二进制文件格式进行打开文件
+    # 注：第一个参数是命令符
+    # 第二个参数是文件对象；必须用二进制文件格式进行打开文件
     try:
         f.storlines('STOR %s' % (UPLOAD_FILE,), open(UPLOAD_FILE, 'rb'))
     except error_perm:

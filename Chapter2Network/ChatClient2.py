@@ -9,7 +9,7 @@ BUFSIZ = 1024
 
 
 def create_client():
-    ADDR = ('', 9991)
+    ADDR = ('127.0.0.1', 9991)
     client = socket(AF_INET, SOCK_STREAM)
     client.connect(ADDR)
     print('> ')

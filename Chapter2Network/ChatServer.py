@@ -4,7 +4,6 @@ import socket
 
 if __name__ == '__main__':
     # 半双工聊天：两个人聊天，一人一句话。
-    #
 
     HOST = '127.0.0.1'
     PORT = 55555

@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import cgi
 
+# 必须先启动web服务器。而本py文件是应用程序
 # 头文件和html正文之间有个空行
 response_html = ''' Content-type:text/html \r\n
 <html>

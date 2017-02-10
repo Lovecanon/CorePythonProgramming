@@ -14,7 +14,7 @@ def loop(n_loop, sleep_time, lock):
 
 
 def main():
-    # 和SleepA相比，不使用主线程等待—sleep(6)，而是使用while循环+lock
+    # 和SleepA相比，不使用主线程等待—sleep(6)，而是使用while循环+判断是否被lock
     # 直到所有的锁都被释放，才终止while循环
     print('Starting at:', ctime())
     locks = []

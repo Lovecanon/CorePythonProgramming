@@ -7,7 +7,7 @@ from time import sleep
 SMTP_SERVER = 'smtp.163.com'
 POP_SERVER = 'pop.qq.com'
 who = 'bboyxiangkai@163.com'
-password = 'leiteamo'
+password = '***'
 to_who = '535036628@qq.com'
 
 
